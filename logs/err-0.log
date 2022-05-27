@@ -1,0 +1,520 @@
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25
+TSError: ⨯ Unable to compile TypeScript:
+../../../NODE/program/src/index.ts(2,10): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(3,12): error TS2591: Cannot find name 'require'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+../../../NODE/program/src/index.ts(4,26): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+../../../NODE/program/src/index.ts(5,29): error TS7016: Could not find a declaration file for module 'body-parser'. '/Users/yjw520/Desktop/NODE/program/node_modules/body-parser/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/body-parser` if it exists or add a new declaration (.d.ts) file containing `declare module 'body-parser';`
+../../../NODE/program/src/index.ts(6,35): error TS7016: Could not find a declaration file for module 'express'. '/Users/yjw520/Desktop/NODE/program/node_modules/express/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/express` if it exists or add a new declaration (.d.ts) file containing `declare module 'express';`
+
+    at createTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:618:12)
+    at reportTSError (/usr/local/lib/node_modules/ts-node/src/index.ts:622:19)
+    at getOutput (/usr/local/lib/node_modules/ts-node/src/index.ts:809:36)
+    at Object.compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1111:30)
+    at Module.m._compile (/usr/local/lib/node_modules/ts-node/src/index.ts:1224:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Object.require.extensions.<computed> [as .ts] (/usr/local/lib/node_modules/ts-node/src/index.ts:1228:12)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at /usr/local/lib/node_modules/pm2/lib/ProcessContainer.js:303:25

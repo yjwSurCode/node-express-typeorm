@@ -1,0 +1,25 @@
+{
+  "apps": {
+    "name": "pm2-server", // 服务名称
+    "interpreter": "./node_modules/.bin/ts-node", //ts项
+    "script": "./src/index.ts", // 启动路径
+    "watch": true, // 监听更新文件是否重启
+    "ignore_watch": [
+      // 忽略监听
+      "node_modules",
+      "logs"
+    ],
+    "instances": 1, // 多线程数量
+    "error_file": "logs/err.log", // 错误日志路径
+    "out_file": "logs/out.log", // 正常日志路径
+    "log_date_format": "YYY-MM-DD HH:mm:ss", // 日志时间格式
+    "env_development": {
+      "PORT": 3000,
+      "NODE_ENV": "development"
+    },
+    "env_production": {
+      "PORT": 3000,
+      "NODE_ENV": "production"
+    }
+  }
+}

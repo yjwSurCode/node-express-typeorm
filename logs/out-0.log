@@ -1,0 +1,18 @@
++0800-05-27 14:54:55: create express app
++0800-05-27 14:54:55: Express server has started on port 3000. Open http://localhost:3000 to see results
++0800-05-27 14:55:03: create express app
++0800-05-27 14:55:03: Express server has started on port 3000. Open http://localhost:3000 to see results
++0800-05-27 14:55:27: 88888888 {} {} {} [Function: next]
++0800-05-27 14:55:28: [
+  <Buffer 7b 22 65 72 72 5f 6e 6f 22 3a 30 2c 22 65 72 72 5f 6d 73 67 22 3a 22 73 75 63 63 65 73 73 22 2c 22 64 61 74 61 22 3a 5b 7b 22 63 61 74 65 67 6f 72 79 ... 2652 more bytes>
+]  list
++0800-05-27 14:55:55: create express app
++0800-05-27 14:55:56: Express server has started on port 3000. Open http://localhost:3000 to see results
++0800-05-27 14:56:18: create express app
++0800-05-27 14:56:18: Express server has started on port 3000. Open http://localhost:3000 to see results
++0800-05-27 14:56:29: create express app
++0800-05-27 14:56:29: Express server has started on port 3000. Open http://localhost:3000 to see results
++0800-05-27 15:11:35: 88888888 {} {} {} [Function: next]
++0800-05-27 15:11:35: [
+  <Buffer 7b 22 65 72 72 5f 6e 6f 22 3a 30 2c 22 65 72 72 5f 6d 73 67 22 3a 22 73 75 63 63 65 73 73 22 2c 22 64 61 74 61 22 3a 5b 7b 22 63 61 74 65 67 6f 72 79 ... 2652 more bytes>
+]  list
