@@ -4,23 +4,24 @@ import { User } from "../entity/User";
 
 import db from "../config/db";
 
-export class PayController {
-  //   private userRepository = getRepository(User);
-
-  //   async all(request: Request, response: Response, next: NextFunction) {
-  //     return this.userRepository.find();
-  //   }
-
-  //   async remove(request: Request, response: Response, next: NextFunction) {
-  //     let userToRemove = await this.userRepository.findOneBy({
-  //       id: request.params.id,
-  //     });
-  //     await this.userRepository.remove(userToRemove);
-  //   }
-
-  async addCars(req, res, next) {
+export class OrderController {
+  async addParking(req, res, next) {
+    console.log(
+      "88888888",
+      req.params,
+      req.query,
+      req.body,
+      next,
+      "99999999999",
+      `${req.body.value.address}` === "",
+      `${req.body.value.address}` === " "
+    );
+    const param = req.body.value;
+    console.log(param.address, "param.address");
+    const sql = `insert into car (parkingName,villageName,address,price,userId) values('${param.parkingName}',${param.villageName},'${param.address}','66',${param.userId})`;
+    // const sql = `insert into car (parkingName,villageName,address,price,userId) values(${param.parkingName},${param.villageName},'广东省广州市海珠区新港中路397号','66',${param.userId})`;
     var promise = new Promise((resolve, reject) => {
-      db.query(`select * from user`, (err, rows, fields) => {
+      db.query(sql, (err, rows, fields) => {
         if (err) {
           reject(err);
         }
@@ -38,14 +39,18 @@ export class PayController {
   }
 
   async carList(req, res, next) {
-    // console.log(req, res);
+    console.log("88888888", req.params, req.query, next, req.body);
+
     var promise = new Promise((resolve, reject) => {
-      db.query(`select * from car`, (err, rows, fields) => {
-        if (err) {
-          reject(err);
+      db.query(
+        `select * from car where userId=${req.query.userId}`,
+        (err, rows, fields) => {
+          if (err) {
+            reject(err);
+          }
+          resolve(rows);
         }
-        resolve(rows);
-      });
+      );
     });
     promise.then(
       (rows) => {

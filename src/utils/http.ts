@@ -124,3 +124,30 @@ var HttpUtil = {
 };
 
 module.exports = HttpUtil;
+
+// axios
+//   .get(
+//     `https://api.weixin.qq.com/sns/jscode2session?appid=${APPID}&secret=${SECRET}&js_code=${JSCODE}&grant_type=authorization_code`
+//   )
+//   .then((res) => {
+//     console.log(`状态码: ${res.status}`);
+//     console.log(res);
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });
+
+// axios
+// .post(
+//   `https://api.weixin.qq.com/sns/jscode2session?appid=${APPID}&secret=${SECRET}&js_code=${JSCODE}&grant_type=authorization_code`
+// {
+//   data: "做点事情",
+// }
+// )
+// .then((res) => {
+//   console.log(`状态码: ${res.status}`);
+//   console.log(res);
+// })
+// .catch((error) => {
+//   console.error(error);
+// });
