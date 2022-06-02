@@ -64,13 +64,9 @@ pm2 start ecosystem.config.js
 npm i --save-dev @types/body-parser
 npm i --save-dev @types/express
 
-
-
 // INSERT [INTO] 表名 [(字段列表)] VALUES (值列表)[, (值列表), ...]
 // INSERT [INTO] 表名 SET 字段名=值
 // insert into 表名 (sno,sname,enterdate) values(10,'李四','2021-1-1')
-
-
 
 怎么处理请求方式不对？？？
 
@@ -143,8 +139,44 @@ npm i jsonwebtoken express-jwt
 jsonwebtoken 用于生成 JWT 字符串
 express-jwt 用于将 JWT 字符串解析还原成 JSON 对象
 
-
-
-
-
 抢购：：：：：：
+
+{
+时间未到：
+不可以抢购
+}
+
+{
+时间已过没刷新： 没抢到 抢购成功  
+}
+
+{
+时间已过刷新
+1：表还有数据
+已抢购成功： 提示已抢成功
+未抢购： 可继续抢购
+
+2：表没有数据
+不提示火热抢购中 默认提示：秒杀已抢购完毕
+点击提示已抢光
+
+}
+
+npm install node-schedule --save
+
+const schedule = require('node-schedule');
+
+let rule = new schedule.RecurrenceRule()
+/**每天的凌晨 12 点更新代码\*/
+rule.hour = 0
+rule.minute = 0
+rule.second = 0
+/**启动任务\*/
+schedule.scheduleJob(rule, () => {
+updateCode.cloneRepo();
+console.log('代码更新了！');
+})
+
+redis 用法：https://blog.51cto.com/u_15338614/3582480
+
+数据库：'updata user set time ='2022-06-02 09:17:15',goods = '1' where userId ='123' and a=1 '

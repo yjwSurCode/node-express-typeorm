@@ -51,4 +51,9 @@ export class Car {
     default: null,
   })
   userId: string; //用户归属
+
+  @Column({
+    default: 3,
+  })
+  goods: number; //商品剩余
 }

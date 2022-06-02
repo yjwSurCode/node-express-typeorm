@@ -1,15 +1,17 @@
 // fs path是遵循cjs规范写的
 var fs = require("fs");
 var path = require("path");
+var schedule = require("node-schedule");
 import * as express from "express";
 import * as bodyParser from "body-parser";
 import { Request, Response } from "express";
 import { AppDataSource } from "./data-source";
 import { User } from "./entity/User";
 import { Car } from "./entity/Car";
-import { router, apiRouter } from "./api/index";
+import { Record } from "./entity/Record";
 
-// const parseJwt = require("express-jwt");
+import { router, apiRouter } from "./api/index";
+import db from "./config/db";
 var { expressjwt: jwt } = require("express-jwt");
 const SECRET_KEY = "login2022"; // 与生成token的密钥要一致!
 
@@ -28,47 +30,61 @@ AppDataSource.initialize()
       next();
     });
 
-    // // 使用expressJWT 验证token是否过期
-    // app.use(
-    //   jwt({
-    //     secret: SECRET_KEY, // 签名的密钥 或 PublicKey
-    //     algorithms: ["HS256"], // 使用何种加密算法解析
-    //   }).unless({
-    //     path: ["/getUserInfo", "/setUserInfo"], // 指定路径不经过 Token 解析
-    //   })
-    // );
+    // 使用expressJWT 验证token是否过期
+    app.use(
+      jwt({
+        secret: SECRET_KEY, // 签名的密钥 或 PublicKey
+        algorithms: ["HS256"], // 使用何种加密算法解析
+      }).unless({
+        path: ["/getUserInfo", "/setUserInfo"], // 指定路径不经过 Token 解析
+      })
+    );
 
-    // //处理没有UnauthorizedError
-    // app.use(function (err, req, res, next) {
-    //   console.log(res, "err11111111111111");
-    //   if (err.name === "UnauthorizedError") {
-    //     res.json([
-    //       { code: 403, msg: "No token provided or token failure ", data: "" },
-    //     ]);
-    //     return;
-    //   }
-    //   next();
-    // });
+    //处理没有UnauthorizedError
+    app.use(function (err, req, res, next) {
+      console.log(res, "err11111111111111");
+      if (err.name === "UnauthorizedError") {
+        res.json({
+          code: 403,
+          msg: "No token provided or token failure ",
+          data: "",
+        });
+        return;
+      }
+      next();
+    });
 
     // TODO
     // 白名单
-    // app.use("/", router);
+    app.use("/", router);
     //需要token
     app.use("/api", apiRouter);
 
-    await AppDataSource.manager.create(User); //创建用户表格
+    /** 定时任务 每天的凌晨 12 点更新代码\*/
+    let rule = new schedule.RecurrenceRule();
+    rule.hour = 0;
+    rule.minute = 55;
+    rule.second = 0;
+    /**启动任务\*/
+    schedule.scheduleJob(rule, () => {
+      console.log("代码更新了！");
+      db.query(`update car set goods='3' where id='99'`, () => {});
+      db.query(`update user set time='',goods=''`, (err, rows, fields) => {});
+    });
 
-    // await AppDataSource.manager.save(
-    //   AppDataSource.manager.create(Car, {
-    //     villageName: "香缇美景",
-    //     parkimg: "http://rbleiojei.hn-bkt.clouddn.com/%E6%B1%A4%E8%87%A3.png",
-    //     parkingName: "二号停车位",
-    //     price: "456",
-    //     starTime: "2022/5/14 09:00",
-    //     endTime: "2023/5/14 09:00",
-    //     address: "湖北湖北湖北湖北湖北湖北",
-    //   })
-    // );
+    await AppDataSource.manager.create(User); //创建用户表格
+    await AppDataSource.manager.create(Record); //创建用户记录表
+    await AppDataSource.manager.save(
+      AppDataSource.manager.create(Car, {
+        villageName: "香缇美景",
+        parkimg: "http://rbleiojei.hn-bkt.clouddn.com/%E6%B1%A4%E8%87%A3.png",
+        parkingName: "二号停车位",
+        price: "456",
+        starTime: "2022/5/14 09:00",
+        endTime: "2023/5/14 09:00",
+        address: "湖北湖北湖北湖北湖北湖北",
+      })
+    );
 
     // app.on("request", function (req, res) {
     //   //都会触发

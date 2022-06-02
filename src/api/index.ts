@@ -8,7 +8,6 @@ router.use(routes);
 
 //需要验证
 var apiRouter = Router();
-router.use(apiroutes);
-console.log("11111");
+apiRouter.use(apiroutes); //!!!
 
 export { router, apiRouter };

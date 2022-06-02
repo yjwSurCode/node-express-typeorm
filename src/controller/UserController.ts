@@ -62,7 +62,7 @@ export class UserController {
       }
       const parma = req.body;
       console.log("333333333333333333");
-      res.json({ data: getUserInfoResult.data });
+      res.json([{ code: 200, msg: "ok", data: getUserInfoResult.data }]);
       return;
     });
 
@@ -106,7 +106,9 @@ export class UserController {
             const token = jwt.sign({ user: parma.userInfo }, SECRET_KEY, {
               expiresIn: "3h",
             });
-            res.json([{ code: 200, msg: "用户已存在", token, data: "" }]);
+            res.json([
+              { code: 200, msg: "用户已存在", token, data: parma.userInfo },
+            ]);
             return;
           }
         }
